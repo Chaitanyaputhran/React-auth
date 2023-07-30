@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    height: 100vh; /* Set height to 100% of the viewport height */
+    min-height: 100vh; /* Ensure a minimum height of the viewport height */
+    width: 100vw; /* Set width to 100% of the viewport width */
+    background-color: #9900ff;
+    background: linear-gradient(to right, #9900ff, #cc80ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+ /* Include padding and border in the total width/height */
+  }
+  
+  .innerBox {
+    min-width: 400px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
