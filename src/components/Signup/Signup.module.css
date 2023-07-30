@@ -37,6 +37,12 @@ body {
 
 
   }
+  .footer .errorMsg{
+    font-weight:bold;
+    font-size:0.875rem;
+    color:#ff0000;
+    align-self: center;
+  }
   .footer button{
     outline:none;
     border:none;
@@ -48,21 +54,14 @@ body {
     padding:10px 16px;
     width:100%;
     transition:100ms;
-    cursor:pointer;
+    cursor: pointer;
   }
   .footer button:disabled{
-    background-color: gray !important;
+    background-color:gray !important ;
   }
   .footer button:hover{
     background-color: #cc80ff;
   }
-
-.footer .errorMsg{
-  font-weight:bold;
-  font-size:0.875rem;
-  color:#ff0000;
-  align-self: center;
-}
   .footer p{
     font-weight:700;
     color:#000;
