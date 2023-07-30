@@ -3,7 +3,8 @@ import styles from "./Loginmodule.module.css";
 import InputControl from "../inputControl/inputControl"
 import { Link, useNavigate } from 'react-router-dom';
 import  { useState } from 'react';
-import { signInWithEmailAndPassword } from 'firebase/auth';
+import { getAuth,signInWithEmailAndPassword } from 'firebase/auth';
+import {auth} from "../../firebase";
 
 function login() {
   const navigate=useNavigate();
@@ -23,7 +24,6 @@ function login() {
     setSubmitButtonDisabled(true);
     signInWithEmailAndPassword(auth,values.email,values.pass).then(async(res)=>{setSubmitButtonDisabled(false);
      const user=res.user;
-     await updateProfile(user,{displayName:values.name});
      navigate("/");
 
    
