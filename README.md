@@ -36,7 +36,5 @@ To run the project locally, follow these steps:
 - Use the "Signup" and "Login" buttons to access the authentication features.
 - Customize the application to suit your project requirements.
 
-### License
 
-This project is licensed under the [MIT License](LICENSE).
 
