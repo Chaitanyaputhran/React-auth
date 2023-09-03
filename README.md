@@ -23,7 +23,7 @@ React-Auth is a straightforward web application that provides user authenticatio
 
 ### Installation
 
-To run the project locally, follow these steps:
+To run the project locally, 
 
 1. Clone the repository.
 2. Configure Firebase with your project credentials.
