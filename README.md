@@ -1,4 +1,4 @@
-## React-Auth: A Simple Login and Signup Page with React and Firebase.
+## React-Auth: A Simple Login and Signup Page with React and Firebase
 
 ![First Screenshot](./public/first.png)
 ![Signup Screenshot](./public/signup.png)
